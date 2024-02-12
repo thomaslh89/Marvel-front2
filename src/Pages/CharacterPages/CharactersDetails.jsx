@@ -16,7 +16,7 @@ const CharactersDetail = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `https://site--marvel-back--f5rrxgmqcwc8.code.runs/characterdetail/${characterID}`
+          `https://site--marvel-back--f5rrxgmqcwc8.code.run/characterdetail/${characterID}`
         );
         setData(response.data);
       } catch (error) {
@@ -36,9 +36,9 @@ const CharactersDetail = () => {
         <div className="description">
           <h1>{data.name}</h1>
           <img
-            src={`${data.thumbnail.path}/portrait_fantastic.${data.thumbnail.extension}`}
+            src={`${data.thumbnail.path}/portrait_large.${data.thumbnail.extension}`}
             alt={data.name}
-          />{" "}
+          />
           <p>{data.description}</p>
           <p>Les Comics dans lequel j'ai joué : </p>
           <div>

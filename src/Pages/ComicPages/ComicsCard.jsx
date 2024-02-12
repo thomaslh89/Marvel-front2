@@ -9,11 +9,11 @@ const ComicsCard = ({ data }) => {
 
   return (
     <div
-      className="box box2"
+      className="box3 box4"
       onClick={handleClick}
       style={{ cursor: "pointer" }}
     >
-      <div className="evenboxinner">
+      <div className="evenboxinner2">
         <h3>{data.title}</h3>
       </div>
 

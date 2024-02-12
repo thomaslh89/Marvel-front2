@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
-.box {
+.box3 {
   /* width: 150px;
   /* height: 400px; */
 
@@ -17,18 +17,18 @@
   float: left;
   height: 400px;
 }
-.box2 {
+.box4 {
   width: 350px;
   border-width: 3px 3px 5px 5px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
 }
-.box img {
+.box3 img {
   width: 100px;
   position: absolute;
   bottom: 10px;
 }
-.evenboxinner {
+.evenboxinner2 {
   transform: rotate(2deg);
   margin: 15px;
   padding: 0 5px;

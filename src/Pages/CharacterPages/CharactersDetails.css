@@ -6,7 +6,6 @@
 }
 .maindetails {
   display: flex;
-  border: 1px red solid;
   justify-content: center;
   width: 100%;
 }
