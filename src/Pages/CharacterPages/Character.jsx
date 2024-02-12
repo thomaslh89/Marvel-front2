@@ -22,7 +22,7 @@ const Charactere = () => {
 
       try {
         const response = await axios.get(
-          `http://localhost:3000/characters?name=${name}&skip=${skipValue}`
+          `https://site--marvel-back--f5rrxgmqcwc8.code.run/characters?name=${name}&skip=${skipValue}`
         );
         console.log(response.data);
         setData(response.data);
