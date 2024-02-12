@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+.box {
+  /* width: 150px;
+  /* height: 400px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2px;
+  position: relative;
+  margin: 25px;
+  width: 250px;
+  height: 300px;
+  background: #fff;
+  border: solid black;
+  border-color: black;
+  float: left;
+  height: 400px;
+}
+.box2 {
+  width: 350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+}
+.box img {
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+.evenboxinner {
+  transform: rotate(2deg);
+  margin: 15px;
+  padding: 0 5px;
+  float: right;
+  background: #ddd;
+  border: 1px solid #222;
+  box-shadow: 3px 3px 0 #222;
+  font-family: "Bangers", cursive;
+}

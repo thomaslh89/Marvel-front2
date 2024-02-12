@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+.mainCharacteresComics {
+  font-family: "Bangers", cursive;
+}
+.ListComics {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+
+  width: 70vw;
+  overflow-x: scroll;
+  height: 400px;
+}
+.ListComics img {
+  margin: 10px;
+}

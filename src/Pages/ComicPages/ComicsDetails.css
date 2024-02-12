@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+.description {
+  display: flex;
+  width: 1200px;
+  border: red 1px solid;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bangers", cursive;
+}
+.description img {
+  width: 150px;
+  height: 200px;
+}

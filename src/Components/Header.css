@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.Header {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: space-around;
+  background-size: 100%;
+  background-image: radial-gradient(
+      ellipse farthest-corner,
+      transparent 0%,
+      transparent 35%,
+      #fff 30%,
+      #fff 40%,
+      transparent 90%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 0px 0px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 8px 8px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 0px 8px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 8px 0px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    linear-gradient(
+      40deg,
+      #038ecf 0,
+      #51cbf1 30%,
+      #7ff9ff 50%,
+      #51cbf1 70%,
+      #038ecf 100%
+    );
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+}
+
+.Header img {
+  height: 130px;
+  cursor: pointer;
+}
+
+.Header button {
+  margin: 15px;
+  padding: 0 5px;
+  float: right;
+  background: #ddd;
+  border: 1px solid #222;
+  box-shadow: 3px 3px 0 #222;
+  font-family: "Bangers", cursive;
+  cursor: pointer;
+  height: 80px;
+  width: 200px;
+  font-size: large;
+}
+.Header button:hover {
+  background-color: #222;
+  color: #bd2d10;
+}
