@@ -1,30 +1,12 @@
 import "./Home.css";
-import React from "react";
-import { render } from "react-dom";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
-  TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
-} from "react-twitter-embed";
+
 const Home = () => {
   return (
     <div className="wrapper-home">
       <div className="twitter">
         <h1> Les dernières nouveautés !</h1>{" "}
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="Marvel"
-          options={{ height: 700 }}
-        />
       </div>
       <div className="youtube">
         <LiteYouTubeEmbed

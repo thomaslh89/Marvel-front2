@@ -1,6 +1,4 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import axios from "axios";
 import "./App.css";
 import Header from "./Components/Header";
 import Charactere from "./Pages/CharacterPages/Character";
