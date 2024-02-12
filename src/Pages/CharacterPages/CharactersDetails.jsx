@@ -16,7 +16,7 @@ const CharactersDetail = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://localhost:3000/characterdetail/${characterID}`
+          `https://site--marvel-back--f5rrxgmqcwc8.code.runs/characterdetail/${characterID}`
         );
         setData(response.data);
       } catch (error) {

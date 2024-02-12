@@ -21,7 +21,7 @@ const Comics = () => {
 
       try {
         const response = await axios.get(
-          `http://localhost:3000/comics?title=${title}&skip=${skipValue}`
+          `https://site--marvel-back--f5rrxgmqcwc8.code.run/comics?title=${title}&skip=${skipValue}`
         );
         console.log(response.data);
         setData(response.data);

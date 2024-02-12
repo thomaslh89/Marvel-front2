@@ -15,7 +15,7 @@ const ComicsDetails = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://localhost:3000/comicsdetail/${comicID}`
+          `https://site--marvel-back--f5rrxgmqcwc8.code.run/comicsdetail/${comicID}`
         );
         setData(response.data);
       } catch (error) {
