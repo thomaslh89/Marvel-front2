@@ -13,6 +13,13 @@ const Header = () => {
       <div>
         <button onClick={() => navigate("/comics")}>Comics</button>
       </div>
+      <div>
+        <button
+          onClick={() => (window.location.href = "https://www.lehebel.com")}
+        >
+          Retour vers lehebel.com
+        </button>
+      </div>
     </div>
   );
 };

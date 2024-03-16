@@ -23,14 +23,12 @@
   border-width: 3px 3px 5px 5px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
-  border: red 1px solid;
 }
 .box3 img {
   width: 150px;
   height: 260px;
   position: absolute;
   bottom: 10px;
-  border: rgb(63, 11, 11) 1px solid;
 }
 .evenboxinner2 {
   transform: rotate(2deg);

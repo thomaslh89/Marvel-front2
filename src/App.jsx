@@ -5,6 +5,7 @@ import Charactere from "./Pages/CharacterPages/Character";
 import Comics from "./Pages/ComicPages/Comics";
 import CharactersDetail from "./Pages/CharacterPages/CharactersDetails";
 import ComicsDetails from "./Pages/ComicPages/ComicsDetails";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
         />
         <Route path="/comicsdetail/:comicID" element={<ComicsDetails />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

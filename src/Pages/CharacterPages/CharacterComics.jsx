@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./CharacterComics.css";
+import { useNavigate } from "react-router-dom";
 
 const CharacterComics = ({ characterID }) => {
   const [comics, setComics] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchComics = async () => {
@@ -33,6 +35,7 @@ const CharacterComics = ({ characterID }) => {
             <li className="li-comics" key={index}>
               {comic.title}
               <img
+                onClick={() => navigate(`/comicsdetail/${comic._id}`)}
                 src={`${comic.thumbnail.path}/portrait_fantastic.${comic.thumbnail.extension}`}
                 alt={comic.title}
               />

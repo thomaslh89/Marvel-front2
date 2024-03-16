@@ -1,0 +1,13 @@
+.footerdiv {
+  position: absolute;
+  bottom: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footerdiv a {
+  text-decoration: none;
+  color: black;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+}
