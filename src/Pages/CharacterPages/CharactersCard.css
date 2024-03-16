@@ -9,11 +9,12 @@
   position: relative;
   margin: 25px;
   width: 250px;
-  height: 300px;
+  height: 100%;
   background: #fff;
   border: solid black;
   border-color: black;
   float: left;
+  padding-bottom: 10px;
 }
 .box2 {
   width: 350px;
@@ -22,8 +23,9 @@
   transform: rotate(-2deg);
 }
 .box img {
-  width: 100px;
-  position: absolute;
+  width: 150px;
+  height: 210px;
+  /* position: absolute; */
   bottom: 10px;
 }
 .evenboxinner {

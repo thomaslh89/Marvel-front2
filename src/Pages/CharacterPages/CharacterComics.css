@@ -4,13 +4,24 @@
 }
 .ListComics {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: nowrap;
-
-  width: 70vw;
+  width: 700px;
   overflow-x: scroll;
   height: 400px;
 }
 .ListComics img {
   margin: 10px;
+  margin-top: 10px;
+}
+.mainCharacteresComics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.li-comics {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

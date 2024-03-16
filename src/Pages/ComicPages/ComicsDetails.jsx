@@ -33,10 +33,10 @@ const ComicsDetails = () => {
       {isLoading ? (
         <span>en cour de chargement...</span>
       ) : (
-        <div className="description">
+        <div className="descriptioncomics">
           <h1>{data.title}</h1>{" "}
           <img
-            src={`${data.thumbnail.path}/portrait_medium.${data.thumbnail.extension}`}
+            src={`${data.thumbnail.path}/portrait_xlarge.${data.thumbnail.extension}`}
             alt={data.name}
           />
           <p>{data.description}</p>

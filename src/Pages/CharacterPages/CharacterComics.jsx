@@ -30,7 +30,7 @@ const CharacterComics = ({ characterID }) => {
       {comics.length > 0 ? (
         <ul className="ListComics">
           {comics.map((comic, index) => (
-            <li key={index}>
+            <li className="li-comics" key={index}>
               {comic.title}
               <img
                 src={`${comic.thumbnail.path}/portrait_fantastic.${comic.thumbnail.extension}`}

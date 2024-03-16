@@ -1,11 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 
-.maindetails p {
+.maindetailscharac {
   font-family: "Bangers", cursive;
-  width: 300px;
-}
-.maindetails {
   display: flex;
   justify-content: center;
-  width: 100%;
+}
+.descriptioncharac {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+.descriptioncharac img {
+  width: 150px;
+  height: 230px;
 }

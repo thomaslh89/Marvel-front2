@@ -29,18 +29,18 @@ const CharactersDetail = () => {
     fetchData();
   }, [characterID]);
   return (
-    <div className="maindetails">
+    <div className="maindetailscharac">
       {isLoading ? (
         <span>en cours de chargement...</span>
       ) : (
-        <div className="description">
+        <div className="descriptioncharac">
           <h1>{data.name}</h1>
           <img
-            src={`${data.thumbnail.path}/portrait_large.${data.thumbnail.extension}`}
+            src={`${data.thumbnail.path}/portrait_medium.${data.thumbnail.extension}`}
             alt={data.name}
           />
           <p>{data.description}</p>
-          <p>Les Comics dans lequel j'ai joué : </p>
+          <p>Les Comics dans lequel j'ai joué</p>
           <div>
             <CharacterComics characterID={characterID} />
           </div>
