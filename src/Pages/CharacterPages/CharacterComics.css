@@ -9,6 +9,7 @@
   width: 700px;
   overflow-x: scroll;
   height: 400px;
+  cursor: pointer;
 }
 .ListComics img {
   margin: 10px;

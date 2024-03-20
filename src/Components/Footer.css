@@ -1,13 +1,64 @@
-.footerdiv {
-  position: absolute;
-  bottom: 1;
-  left: 50%;
-  transform: translateX(-50%);
+.Footer {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  justify-content: space-around;
+  background-size: 20%;
+  background-image: radial-gradient(
+      ellipse farthest-corner,
+      transparent 0%,
+      transparent 35%,
+      #fff 30%,
+      #fff 40%,
+      transparent 90%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 0px 0px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 8px 8px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 0px 8px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at 8px 0px,
+      transparent 0%,
+      transparent 20%,
+      #fff 15%,
+      #fff 20%,
+      transparent 50%
+    ),
+    linear-gradient(
+      40deg,
+      #038ecf 0,
+      #51cbf1 30%,
+      #7ff9ff 50%,
+      #51cbf1 70%,
+      #038ecf 100%
+    );
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
 }
-.footerdiv a {
+.Footer a {
   text-decoration: none;
   color: black;
-  border: 1px black solid;
-  border-radius: 10px;
-  padding: 10px;
+  border: black solid 1px;
 }
